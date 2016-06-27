@@ -1,0 +1,22 @@
+{
+  "name": "fmirank",
+  "authors": [
+    "Martin R. Hristov <martin.r.hristov@sap.com>"
+  ],
+  "description": "",
+  "main": "index.php",
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "FMIRank/_/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6"
+  }
+}
