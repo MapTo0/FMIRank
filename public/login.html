@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Login</title>
+    <script src="https://www.gstatic.com/firebasejs/3.1.0/firebase.js"></script>
+    <script>
+    // Initialize Firebase
+    var config = {
+        apiKey: "AIzaSyC2WuVrxbMMEPvBt89XSKPINae4XpJpTPQ",
+        authDomain: "fmirank.firebaseapp.com",
+        databaseURL: "https://fmirank.firebaseio.com",
+        storageBucket: "fmirank.appspot.com",
+    };
+    firebase.initializeApp(config);
+    </script>
+    <script src="scripts/auth.js" type="text/javascript" charset="utf-8" defer></script>
+</head>
+
+<body>
+    <main class="auth-main">
+        <header class="auth-header">
+            <h1>FMIRank</h1>
+        </header>
+        <section class="auth-section">
+            <div class="register-wrapper">
+                <input type="email" name="email" placeholder="user@site.com" id="email">
+                <input type="Username" name="username" placeholder="Username" id="username">
+                <input type="password" name="password" placeholder="Password" id="password">
+                <button type="" id="register-btn">Create an account</button>
+            </div>
+            <div class="login-wrapper">
+                <input type="input" id="login-email">
+                <input type="password" id="login-password">
+                <button type="" id="login-btn">Login</button>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
